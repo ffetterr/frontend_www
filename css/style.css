@@ -1,0 +1,158 @@
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7581a1;
+    line-height: 26px;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 80px;
+    font-weight: 600;
+    color: #192b59;
+}
+.nav_menu {
+    font-size: 12px;
+    font-weight: 700;
+    color: #6e7ea9;
+    text-transform: uppercase;
+}
+
+.button_1 { 
+    color: #fff;
+    font-weight: 400;
+    background-color: #1085e4;
+}
+
+
+.grid h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #192b59;
+}
+.grid h2 span {
+    font-size: 14px;
+    color: #1085e4;
+    display: block;
+}
+.grid_item h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #192b59;
+
+
+}
+.grid_item a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1085e4;
+}
+.rosalina p{
+    font-size: 14px;
+    font-weight: 600;
+    color: #1085e4;
+
+}
+.rosalina p span{
+    font-size: 16px;
+    font-weight: 700;
+    color: #192b59;
+}
+
+.page_subscribe h2 span{
+    font-size: 14px;
+    font-weight: 800;
+    color: #00bffe;
+    display: block;
+
+}
+.page_subscribe h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.page_subscribe p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #8da3da;
+}
+
+.page_subscribe button{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #1085e4;
+}
+.page_subscribe input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: #b1c3ee;
+}
+.header_2 {
+    font-weight: 600;
+    font-size: 50px;
+    color: #192b59;
+}
+.page_software dl dt {
+    font-weight: 700;
+    font-size: 16px;
+    color: #5a6789;
+}
+.page_stat h2 span {
+    font-size: 16px;
+    font-weight: 800;
+    color: #1085e4;
+    display: block;
+    text-transform: uppercase;
+}
+
+.page_stat ul li span {
+    font-weight: 700;
+    font-size: 60px;
+    color: #bacbdc;
+    display: block;
+}
+.page_stat ul li {
+    font-weight: 700;
+    font-size: 12px;
+    color: #1085e4;
+    display: block;
+    text-transform: uppercase;
+}
+.available {
+    font-weight: 700;
+    font-size: 16px;
+    color: #c4d2dd;
+    text-transform: uppercase;
+}
+.page_suitable a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #1085e4;
+    text-transform: uppercase;
+}
+.page_etid a {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #1085e4;
+    text-transform: uppercase;
+}
+
+.page_screen h2 span {
+    font-size: 14px;
+    font-weight: 800;
+    color: #1085e4;
+    display: block;
+    text-transform: uppercase;
+}
+.page_screen h2 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #192b59;
+}
