@@ -20,15 +20,74 @@ h1 {
     font-weight: 700;
     color: #6e7ea9;
     text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
 }
+.nav_menu li {
+    display: inline;
+}
+.btn-get {
+    
 
-.button_1 { 
-    color: #fff;
-    font-weight: 400;
+}
+.btn-primary {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;   
     background-color: #1085e4;
+    padding: 24px 44px;
+    border-radius: 30px;
+    letter-spacing: 3.5px;
+    border: 1px solid #1085e4;
 }
+.btn-primary:hover {
+    color:#1085e4 ;
+    background-color: #fff;
+}
+.btn-secondary {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #7e8bae;   
+    background-color: #cbdbe8;
+    padding: 24px 44px;
+    border-radius: 30px;
+    letter-spacing: 3.5px; 
+    border: 1px solid #cbdbe8;  
+}
+.btn-secondary:hover {
+    color: #cbdbe8;
+    background-color: #fff;
+}
+.btn-group a+a {
+    margin-left: 20px;
 
+}
+.button_1 { 
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    padding: 24px 61px;
+}
+.btn-info {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #8085b1;   
+    background-color: transparent;
+    padding: 24px 68px;
+    border-radius: 30px;
+    letter-spacing: 3.5px; 
+    border: 2px solid #dce1e5; 
+}
+.btn-info-active {
+    color: #ffffff;
+    background-color: #1085e4;
+    padding: 24px 69px;
+    border: 1px solid #1085e4;
 
+}
 .grid h2{
     font-size: 40px;
     font-weight: 700;
