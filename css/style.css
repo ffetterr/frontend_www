@@ -252,12 +252,16 @@ align-items: baseline;
   border-radius: 40px;
   border: 1px solid #456dbd;
   padding: 26px;
+  
 }
 .borders {
     display: inline-block;
     position: relative;
     flex-grow: 40%;
     overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: 10px 20px 30px rgba(146, 226, 250, 0.5);
+ border-radius: 40px;
 }
 
 .submit {
