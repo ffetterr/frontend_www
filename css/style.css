@@ -19,12 +19,45 @@ h1 {
     max-width: 1110px;
     margin: 0 auto;
 }
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 49px;
+    margin-bottom: 65px;
+
+}
+.page_header_up {
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 332px 0;
+    position: relative;
+}
+.screen-img {
+    display: block;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    width: 895px;
+    height: 740px;
+    position:absolute;
+    top: 210px;
+    right: 0px;
+
+}
 .page_header {
     width: 100%;
-    max-width: 800px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
-
+    
+}
+.logo {
+    display: block;
+    background-image: url(../img/logo-with-text.png);
+    width: 181px;
+    height: 49px;
+    
 }
 .nav_menu {
     display: flex;
@@ -40,22 +73,19 @@ h1 {
     list-style-type: none;
 }
 .nav_menu li {
-    padding: 0 15px;
+    padding: 0 20px;
 }
 .nav-item {
     color: #6e7ea9;
 }
 .nav {
     white-space: nowrap;
-    margin-bottom: 65px;
+    margin-top: 3.76em;
     max-width: 540px;
-    letter-spacing: 2px;
-    line-height: 1.3;
+    letter-spacing: -3px;
+    line-height: 1.14;
 }
-.btn-get {
-    
 
-}
 
 .btn-primary {
     font-size: 12px;
@@ -123,6 +153,126 @@ h1 {
     border: 1px solid #1085e4;
 
 }
+/* PAGE COMPANY */
+.page_company {
+    background-image: url(../img/bg_2_blue.png);
+    padding: 103px 0px 99px 0px;
+}
+.list-company {
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+}
+.list-company-item {
+    display: inline;
+    flex-basis: 20%;
+    background-repeat: no-repeat;
+}
+.company-one {
+    background-image: url(../img/token.png);
+    height: 59px;
+}
+.company-two {
+    background-image: url(../img/magneto.png);
+    height: 69px;
+}
+.company-three {
+    background-image: url(../img/boohoo.png);
+    height: 47px;
+}
+.company-four {
+    background-image: url(../img/fractal.png);
+    height: 69px;
+}
+/* PAGE COMPANY END */
+
+/* PAGE SUBSCRIBE */
+.subscribe-bg {
+    background: linear-gradient(to right, #0a2090 0%, #2377cd 100%);
+    background-repeat: no-repeat;
+    background-size: 100%;   
+
+}
+.page_subscribe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.subscribe-box {
+    margin-top: -41px;
+
+
+}
+.img {
+    border-style: none;
+}
+.subscribe-box h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    padding: 0px 0px 0px 0px;
+    letter-spacing: -1.6px;
+}
+.subscribe-box h2 span {
+    font-size: 14px;
+    color: #00bffe;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2.9px;
+    padding: 0px 0px 33px 0px;
+
+}
+.subscribe-box p {
+    color: #dfe8ff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 0px 27px 0px;
+    
+
+}
+
+.page_subscribe button{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #1085e4;
+}
+.page_subscribe input::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: #b1c3ee;
+}
+.email  {
+  background-color: transparent;
+  width: 488px;
+ border: none;
+ outline: none;
+  color: #cbdbe8;
+  border-radius: 40px;
+  border: 1px solid #456dbd;
+  padding: 26px;
+}
+.borders {
+    display: inline-block;
+    position: relative;
+    flex-grow: 40%;
+    overflow: hidden;
+}
+
+.submit {
+    position: absolute;
+    padding: 20px 44px;
+    right: 0;
+    margin: 8px 8px 8px 8px;
+    cursor: pointer;
+}
+.Robot {
+    padding-top: 54px;
+    padding-bottom: 54px;
+}
+
+/* PAGE SUBSCRIBE END */
 .grid h2{
     font-size: 40px;
     font-weight: 700;
@@ -157,35 +307,8 @@ h1 {
     color: #192b59;
 }
 
-.page_subscribe h2 span{
-    font-size: 14px;
-    font-weight: 800;
-    color: #00bffe;
-    display: block;
 
-}
-.page_subscribe h2 {
-    font-size: 50px;
-    font-weight: 600;
-    color: #ffffff;
-}
-.page_subscribe p {
-    font-size: 18px;
-    font-weight: 400;
-    color: #8da3da;
-}
 
-.page_subscribe button{
-    font-size: 14px;
-    color: #fff;
-    font-weight: 700;
-    background-color: #1085e4;
-}
-.page_subscribe input::placeholder {
-    font-size: 14px;
-    font-weight: 400;
-    color: #b1c3ee;
-}
 .header_2 {
     font-weight: 600;
     font-size: 50px;
