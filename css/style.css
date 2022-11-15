@@ -277,6 +277,109 @@ align-items: baseline;
 }
 
 /* PAGE SUBSCRIBE END */
+
+/* PAGE GRID */
+.grid {
+    display: grid;
+    grid-template-areas: "a b c" "d b c" "d e f" "g e f" "g h h";
+    Grid-gap: 35px;
+    text-align: center;
+    Grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 173px;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 84px;
+    padding-bottom: 134px;
+
+}
+
+.grid-text-h3 {
+    letter-spacing: -1px;
+}
+.grid-item-title {
+    grid-area: a;
+    text-align: left;
+    letter-spacing: -1px;
+}
+.grid-item-1 {
+    grid-area: b;
+    margin-top: 23px;
+}
+.grid-item-2 {
+    grid-area: c;
+    margin-top: 23px;
+}
+.grid-item-3 {
+    grid-area: d;
+}
+.grid-item-4 {
+    grid-area: e;
+}
+.grid-item-5 {
+    grid-area: f;
+}
+.grid-item-6 {
+    grid-area: g;
+    margin-top: -20px;
+}
+.grid-text {
+    grid-area: h;
+
+}
+.grid-text p {
+    text-align: left;
+}
+.grid_item {
+    text-align: center;
+    box-shadow: 0 7px 7px #f4f4f4;
+    max-width: 353px;
+    padding-top: 61px;
+    padding-bottom: 45px;
+   
+
+}
+.grid-icon {
+    display: block;
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    height: 92px;
+    background-position: center;
+}
+.grid-icon-1 {
+    background-image: url(../img/document.png);
+    width: 73px;
+    
+}
+.grid-icon-2 {
+    background-image: url(../img/custom.png);
+    width: 89px;
+    
+}
+.grid-icon-3 {
+    background-image: url(../img/phone_2.png);
+    width: 79px;
+    
+}
+.grid-icon-4 {
+    background-image: url(../img/design.png);
+    width: 85px;
+    
+}
+.grid-icon-5 {
+    background-image: url(../img/support.png);
+    width: 100px;
+    
+}
+.grid-icon-6 {
+    background-image: url(../img/edit.png);
+    width: 103px;
+    
+}
+
+
+
+
+/* PAGE GRID END */
 .grid h2{
     font-size: 40px;
     font-weight: 700;
