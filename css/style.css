@@ -97,6 +97,7 @@ h1 {
     border-radius: 30px;
     letter-spacing: 3.5px;
     border: 1px solid #1085e4;
+    transition: 0.3s;
 }
 .page_plans .btn-primary {
     padding: 20px 60px;
@@ -116,6 +117,7 @@ h1 {
     border-radius: 30px;
     letter-spacing: 3.5px; 
     border: 1px solid #cbdbe8;  
+    transition: 0.3s;
 }
 .btn-secondary:hover {
     color: #cbdbe8;
@@ -129,6 +131,7 @@ h1 {
     font-weight: 400;
     letter-spacing: 2.5px;
     padding: 24px 61px;
+    transition: 0.3s;
 }
 .btn-info {
     font-size: 12px;
@@ -140,6 +143,7 @@ h1 {
     border-radius: 30px;
     letter-spacing: 2.5px; 
     border: 2px solid #dce1e5; 
+    transition: 0.3s;
 }
 .btn-info:hover {
     color: #fff;
@@ -237,6 +241,8 @@ align-items: baseline;
     color: #fff;
     font-weight: 700;
     background-color: #1085e4;
+    transition: 0.3s;
+
 }
 .page_subscribe input::placeholder {
     font-size: 14px;
@@ -472,7 +478,7 @@ align-items: baseline;
     font-weight: 600;
     color: #192b59;
     line-height: 1.2;
-    letter-spacing: -1.5;
+    letter-spacing: -1.5px;
 }
 .title-h2 span {
     display: block;
@@ -629,3 +635,72 @@ align-items: baseline;
     color: #7b8ab2;
 }
 /* PAGE PLANS END */
+
+
+/* PAGE SOFTWARE */
+.page-software-icon {
+    display: block;
+    background-image: url(../img/logo-cosmic.png);
+    background-repeat: no-repeat;
+    width: 103px;
+    height: 92px;
+    background-position: -30px 0;
+}
+.page_software {
+    padding: 44px 0 155px 0;
+}
+.page-software-lorem {
+    margin-bottom: 27px;
+    max-width: 600px;
+}
+.page_software .title-h2 {
+    max-width: 770px;
+    margin-top: 12px;
+    margin-bottom: 26px;
+    letter-spacing: -1px;
+}
+.page-software-list {
+    margin-top: 10px;
+    height: 340px;
+    overflow: hidden;
+    overflow-y: scroll;
+    max-width: 600px;
+}
+.page-software-list::-webkit-scrollbar { 
+    width: 3px; 
+    background-color: #f3f6ff;
+}
+.page-software-list::-webkit-scrollbar-thumb { 
+    width: 3px; 
+    height: 3px; 
+    border-radius: 10px; 
+    background-color: #1085e4;
+}
+
+
+.page-software-list dt {
+    font-weight: 700;
+    color: #5a6789;
+    margin-bottom: 10px;
+}
+.page-software-list dd {
+    margin-left: 0;
+    margin-bottom: 50px;
+    line-height: 1.8;
+
+    font-size: 14px;
+}
+.page-software-flex {
+    display: flex;
+    justify-content: flex-end;
+}
+.page-software-flex>div {
+    flex-basis: 55%;
+}
+.page-software-img {
+    background-image: url(../img/page-software-icon.png);
+    background-repeat: no-repeat;
+    min-width: 931px;
+    height: 957px;
+}
+/* PAGE SOFTWARE END*/
