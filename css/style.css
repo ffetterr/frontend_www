@@ -704,3 +704,94 @@ align-items: baseline;
     height: 957px;
 }
 /* PAGE SOFTWARE END*/
+
+
+
+/* PAGE CLIENTS */
+
+.page_clients {
+
+    margin-bottom: 112px;
+
+}
+.clients-bg-blue {
+    background-image: url(../img/bg-happy-clients.svg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.page_clients h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+    padding: 0 0 67px 0;
+    letter-spacing: -1.6px;
+    margin: 0 0 0 0;
+    
+}
+.page_clients h2 span {
+    font-size: 18px;
+    color: #00bffe;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2.9px;
+    padding: 72px 0 33px 0;
+    margin: 122px 5px 0 0;
+}
+.box_clients {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+    
+}
+.clients_boxes {
+
+    background-color: #ffffff;
+    width: 240px;
+    border-radius: 5% 5% 5% 5%;
+    padding: 20px 20px 0 50px;
+    margin-right: 30px;
+    box-shadow: 10px 20px 30px rgba(185, 185, 185, 0.2);
+}
+.p_clients {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+.client_name {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000958;
+    display: block;
+    flex-basis: 100%;
+    margin-bottom: 0;
+}
+.client_dolj {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1085e4;
+    margin-top: 0;
+}
+.rolin-b {
+    display: block;
+    width: 53px;
+    background-image: url(../img/rolin-b.png);
+    height: 71px;
+    background-repeat: no-repeat;
+    margin: 0 10px -32px 0;
+    padding: 5px;
+    flex-basis: 25%;
+}
+
+.clients-rolin-b {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.names {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*  PAGE CLIENTS END*/
