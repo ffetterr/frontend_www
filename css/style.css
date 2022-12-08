@@ -589,6 +589,7 @@ align-items: baseline;
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
+    margin-bottom: 117px;
 }
 .box_price_item {
     background-color: #f5faff;
@@ -949,3 +950,149 @@ align-items: baseline;
     margin: 0 5px;
 }
 /* PAGE ETID END */
+
+
+
+/* PAGE TEAM */
+.page-team {
+    background-image: url(../img/bg-our-team.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 0 0;
+    position: relative;
+}
+.team-h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-left: 15px;
+    padding-bottom: 23px;
+    padding-top: 118px;
+}
+.team-h2 span {
+    color: #85c8ff;
+}
+.box-team {
+    display: flex;
+    margin-left: -18px
+}
+
+.box-team-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.box-team-item .btn-team {
+    background-color: #f3f3f3;
+    border-radius: 100%;
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    transition: 0.3s;
+    border: none;
+    padding: 0;
+}
+.box-team-item .btn-team:hover {
+    background-color: #1a88e1;
+}
+
+.box-team-item .btn-team span {
+    background-image: url(../img/icons_1.png);
+    background-repeat: no-repeat;
+    display:block;
+    margin: 0 auto;
+
+}
+.box-team-item .button-more span {
+    width: 55px;
+    height: 59px;
+    background-position: -22px 4px;
+
+}
+.box-team-item .button-more:hover span {
+    background-position: -22px -36px;
+
+}
+.box-team-item .button-more:focus {
+    outline: none;
+}
+
+.box-team-item .btn-fb span {
+    width: 36px;
+    height: 36px;
+    background-position: -66px 4px;
+}
+.box-team-item .btn-fb:hover span {
+    background-position: -66px -36px;
+}
+
+.box-team-item .btn-tw span {
+    width: 36px;
+    height: 36px;
+    background-position: -101px 4px;
+}
+.box-team-item .btn-tw:hover span {
+    background-position: -101px -36px;
+}
+
+.box-team-item .btn-be span {
+    width: 36px;
+    height: 36px;
+    background-position: -137px 4px;
+}
+.box-team-item .btn-be:hover span {
+    background-position: -137px -36px;
+}
+
+.box-team-item .btn-wb span {
+    width: 36px;
+    height: 36px;
+    background-position: -175px 4px;
+}
+.box-team-item .btn-wb:hover span {
+    background-position: -177px -39px;
+}
+.social-team {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+.social-team .btn-team {
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0;
+}
+
+.page-team-position {
+    font-size: 14px;
+    font-weight: 800;
+    color: #1085e4;
+    margin-top: 0;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    text-align: center;
+    margin-left: 13px;
+}
+.page-team-name {
+    font-size: 26px;
+    font-weight: 600;
+    color: #000958;
+    display: block;
+    margin-top: -7px;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-left: 13px;
+}
+.avatar {
+    display: block;
+    background-repeat: no-repeat;
+    margin-bottom: -208px;
+    margin-right: -17px;
+}
+
+
+/* PAGE TEAM END */
