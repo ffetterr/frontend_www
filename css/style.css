@@ -958,7 +958,7 @@ align-items: baseline;
     background-image: url(../img/bg-our-team.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0 0 0 0;
+    padding: 0 0 161px 0;
     position: relative;
 }
 .team-h2 {
@@ -1096,3 +1096,96 @@ align-items: baseline;
 
 
 /* PAGE TEAM END */
+
+
+/* PAGE FORM */
+.page_form {
+    background-image: url(../img/form_bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 0 0 0;
+    position: relative;
+    display: flex;
+}
+.samirasa {
+    background-image: url(../img/samirasa_2.png);
+    background-repeat: no-repeat;
+    width: 460px;
+    height: 403px;
+    margin-right: 58px;
+    margin-top: 60px;
+}
+.form-div {
+    display: flex;
+    flex-direction: column;
+    
+}
+.group-div-input input,
+.group-div-text-area textarea {
+    width: 430px;
+}
+.group-div-text-area textarea {
+    height: 157px;
+}
+.form-input {
+    padding: 20px 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid rgb(220, 228, 236);
+    border-radius: 40px;
+    line-height: 26px;
+}
+.form-text-area {
+    padding: 0px 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid rgb(220, 228, 236);
+    border-radius: 40px;
+    line-height: 26px;
+}
+.page_form input::placeholder,
+ .page_form textarea::placeholder{
+    font-size: 14px;
+    font-weight: 400;
+    color: #a8b1c7;
+}
+.form-input:active, .form-input:hover, .form-input:focus {
+
+    outline: 0;
+    
+    outline-offset: 0;
+    
+    }
+
+.form-text-area:active,.form-text-area:hover, .form-text-area:focus  {
+
+    outline: 0;
+    
+    outline-offset: 0;
+    
+    }
+    .form-div-flex {
+        display: flex;
+        align-items: center;
+        padding: 70px 0 198px 0;
+    }
+    .form-h2 {
+        margin-bottom: 50px;
+    }
+    .group-div-button {
+        margin-top: 10px;
+    }
+    .btn-form {
+        display: flex;
+        gap:10px;
+        letter-spacing: 2px;
+        padding: 24px 50px;
+    }
+    .btn-icon-message {
+        
+        background-image: url(../img/paper-plane.png);
+        height: 13px;
+        width: 13px;
+        background-repeat: no-repeat;
+    }
+/* PAGE FORM END */
